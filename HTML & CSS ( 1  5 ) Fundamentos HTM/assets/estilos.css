@@ -1,0 +1,27 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+}
+h1{
+    color: navy;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.img-martin{
+    height: 20rem;
+}
+
+dialog{
+    border-radius: 1px solid red;
+}
+
+iframe{
+    width: 50%;
+    height: 400px;
+}

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/estilos.css">
+ 
+    <title>Document</title>
+
+    <style>
+
+        h2{
+            color: orangered;
+        }
+
+    </style>
+</head>
+<body>
+    <h2 id="inicio">Aprendiendo HTML</h2>
+    <p>Hola, escribiendo mi primer documento HTML</p>
+    <hr>
+    <h3>TEMARIO DEL CURSO</h3>
+    <ul>
+        <li><a href="index.html#encabezado">Encabezado HTML</a></li>
+        <li><a href="index.html#textoBasico">Etiqueta de texto basicas</a></li>
+        <li><a href="index.html#textoSemantico">Etiquetas de texto semanticas</a></li>
+        <li><a href="index.html#textoFormateo">Texto Formateo</a></li>
+
+    </ul>
+
+
+
+
+    <hr>
+
+
+    <h2 id="encabezado">Encabezados HTML</h2>
+    <h1>Encabezado de tipo 1 / Solo puede existir uno solo </h1>
+    <h2>Encabezado de tipo 2 </h2>
+    <h3>Encabezado de tipo 3 </h3>
+    <h4>Encabezado de tipo 4 </h4>
+    <h5>Un parrafo</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Commodi est nulla enim minima fugit alias neque laboriosam ipsum doloribus, 
+    quasi mollitia beatae voluptates ea iusto aut assumenda accusantium officia non?</p>
+    <a href="index.html#inicio">👍</a>
+    <hr>
+    <h2 id="textoBasico">Etiquetas de texto basicas</h2>
+    <p>Palabreas en: <b>negrita</b>, <i>italica</i>, <u>subrayado</u>, e=mc<sup>2</sup>, H<sub>2</sub>O  </p>
+    <a href="index.html#inicio">👍</a>
+    <hr>
+    <h2 id="textoSemantico">Etiquetas de texto semanticas</h2>
+    <p><strong>Este texto es importante</strong>. <em>Este texto hace enfasis</em>
+    <blockquote>Yo solo se, que no se nada</blockquote> <cite>Socrates</cite>
+    </p>
+    <a href="index.html#inicio">👍</a>
+    <hr>
+
+    <h2 id="textoFormateo">Etiquetas de formateo</h2>
+    <p>
+    <pre>
+        Tareas por hacer
+                -HTML
+                -Terminar de grabar las secciones
+    </pre>
+</p>
+
+<p>
+    <code>
+        Este texto esta en formato de codigo
+    </code>
+</p>
+<p>
+    <pre>
+        <code>
+            Import React from "react"
+            import Title from "./Title"
+
+            function App{
+                 return "Hola mundo"
+            }
+        </code>
+    </pre>
+</p>
+<a href="index.html#inicio">👍</a>
+<hr>
+<h2 id="etiquetasSemanticas">Etiquetas semanticas estructurales</h2>
+
+<header>header - Cabecera de un sitio web o de una seccion</header>
+<main>
+    main - Define la seccion principal del documento, solo puede existir una etiqueta main por documento
+</main>
+
+<footer>
+    footer - Pie de pagina de un sitio web o de una seccion
+</footer>
+
+<article> article - Representa una seccion autocontenido ( que por si sola se explica) </article>
+
+<aside>
+    aside - Representa contenido complementario o secundario
+</aside>
+
+<section>
+    section - Representa una seccion de contenido 
+</section>
+
+<address>
+    adress - Representa una direccion de contacto
+</address>
+
+<hr>
+<h2 id="etiquetasBloque">
+    Etiquetas de Bloque Vs Etiquetas de Linea
+</h2>
+<div style="background-color: yellowgreen;" class="">La etiqueta de bloque por excelencia es la div, una etiqueta de bloque es aquella que genera salto de linea con sus etiquetas hermanas </div>
+<span style="background-color: red;">La etiqueta de linea por excelencia es span</span>
+<span>hola</span>
+<hr>
+<h2 id="estilosCSS">Estilos CSS en HTML</h2>
+
+<hr>
+<h2>Scripts en HTML</h2>
+<hr>
+<h2>Imagenes</h2>
+<img src="./assets/logoVinculate.png" alt="logo vinculate">
+<img src="./assets/WhatsApp Image 2023-05-26 at 16.04.40.jpeg" alt="martin re duro" class="img-martin">
+
+<hr>
+<h2>SVG</h2>
+<img src="./assets/2025984.svg" alt="svg" class="img-martin">
+<hr>
+<h2>Figuras</h2>
+<figure>
+    <img src="./assets/WhatsApp Image 2023-05-26 at 16.04.40.jpeg" alt="" class="img-martin">
+    <figcaption>Martin re duro</figcaption>
+</figure>
+<hr>
+<h2>Listas Ordenadas</h2>
+<h3>Las estaciones del anio </h3>
+<ol>
+    <li>Primavera</li>
+    <li>Otonio</li>
+    <li>Verano</li>
+    <li>Invierno</li>
+</ol>
+
+<ol start="3">
+    <li>Primavera</li>
+    <li>Otonio</li>
+    <li>Verano</li>
+    <li>Invierno</li>
+</ol>
+
+<ol reversed>
+    <li>Primavera</li>
+    <li>Otonio</li>
+    <li>Verano</li>
+    <li>Invierno</li>
+</ol>
+
+
+<ol type="I">
+    <li>Primavera</li>
+    <li>Otonio</li>
+    <li>Verano</li>
+    <li>Invierno</li>
+</ol>
+<hr>
+<h2>Listas Desordenadas</h2>
+<h3>Cosas por hacer</h3>
+<ul>
+    <li>Terminar de grabar videos</li>
+    <li>Editar el video</li>
+    <li>Publicar el video</li>
+</ul>
+<ul type="square">
+    <li>Terminar de grabar videos</li>
+    <li>Editar el video</li>
+    <li>Publicar el video</li>
+</ul>
+<ul type="circle">
+    <li>Terminar de grabar videos</li>
+    <li>Editar el video</li>
+    <li>Publicar el video</li>
+</ul>
+<hr>
+<h2>Listas de definicion</h2>
+
+<dl>
+    <dt>HTML</dt>
+    <dd>Es un lenguaje de enmarcado que define el contenido de la web</dd>
+    <dt>CSS</dt>
+    <dd>Es un lenguaje de definicion que da estilos al codigo HTML</dd>
+    <dt>JS</dt>
+    <dd>JS es el lenguaje de la web</dd>
+</dl>
+<hr>
+<h2>Tablas</h2>
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Constelacion</td>
+        <td>Tipo</td>
+    </tr>
+    <tr>
+        <td>Ikki</td>
+        <td>Fenix</td>
+        <td>Bronce</td>
+    </tr>
+    <tr>
+        <td>Shaina</td>
+        <td>Ofiuco</td>
+        <td>Plata</td>
+    </tr>
+    <tr>
+        <td>Saga</td>
+        <td>Geminis</td>
+        <td>Dotado</td>
+    </tr>
+</table>
+<br><br><br>
+<table>
+    <thead>
+        <tr>
+            <th colspan="3">Tabla de los Santos de Athenea</th>
+        </tr>
+        <tr>
+            <th>Nombre</th>
+            <th>Constelacion</th>
+            <th>Tipo</th>
+        </tr>
+    </thead>
+    <tbody>   
+    <tr>
+        <td>Ikki</td>
+        <td>Fenix</td>
+        <td>Bronce</td>
+    </tr>
+    <tr>
+        <td>Shaina</td>
+        <td>Ofiuco</td>
+        <td>Plata</td>
+    </tr>
+    <tr>
+        <td>Saga</td>
+        <td>Geminis</td>
+        <td>Dotado</td>
+    </tr></tbody>
+    <tfoot></tfoot>
+</table>
+
+<hr>
+<h2>Enlaces</h2>
+<a href="./hola.html">ir a la pagina hola.html</a>
+<br>
+<a href="https://facebook.com" target="_blank" rel="nofollow">ir a facebook</a>
+<a href="https://facebook.com" target="_blank" rel="nofollow"><img src="./assets/logoVinculate.png" alt=""></a>
+
+<hr>
+<h2>Elementos Interactivos</h2>
+<button onclick="alert()">Este es un boton</button>
+<details>
+    <summary>Titulo de acordeon</summary>
+    <article>
+        <h3>Contenido del acordeon</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus debitis non labore totam quisquam! Iste odit at dolores nihil magnam accusamus nam quae iure quam, temporibus sequi ut. Est, unde?
+        </p>
+    </article>
+</details>
+<br>
+<details open>
+    <summary>Titulo de acordeon</summary>
+    <article>
+        <h3>Contenido del acordeon</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus debitis non labore totam quisquam! Iste odit at dolores nihil magnam accusamus nam quae iure quam, temporibus sequi ut. Est, unde?
+        </p>
+    </article>
+</details>
+
+<dialog open>
+    Esto es un modal en HTML
+</dialog>
+<hr>
+<h2>Audio y video</h2>
+<audio src="./media/Feels-PatrickPatrikios.mp3" controls></audio>
+<video src="./media/kenai.mp4" controls></video>
+<hr>
+<h2>Frames</h2>
+<iframe src="./hola.html" frameborder="1"></iframe>
+<br>
+<iframe src="https://jonmircha.com" frameborder="1"></iframe>
+<iframe src="./media/emmet-cheat-sheet.pdf" frameborder="0"></iframe>
+<hr>
+<h2>Formularios</h2>
+<h3>Elementos de Formulario</h3>
+<input type="text">
+<br>
+<input type="checkbox" name="" id="">
+<br>
+<input type="radio">
+<br>
+<input type="range">
+<br>
+<input type="date">
+<br>
+<input type="color" name="" id="">
+<br>
+<input type="button">
+<br>
+<input type="submit">
+<br>
+<input type="reset">
+<br>
+<input type="file">
+<br>
+<input type="hidden" name="idioma"  value="es">
+<br>
+<input type="email">
+
+<br>
+<select name="" id="" >
+    <option value="">Js</option>
+    <option value="">CSS</option>
+    <option value="">HTML</option>
+</select>
+
+<hr>
+<h2>Formulario</h2>
+<h3>Ejemplos de Formulario</h3>
+<h4>Formulario de login</h4>
+<form action="">
+    <input type="text" id="usuario" name="usuario" placeholder="Escribe el usuario">
+    <br><br><br>
+    <input type="password" id="password" name="password" placeholder="Escriba su contrasenia">
+    <br><br><br>
+    <input type="submit">
+    <br><br>
+    <input type="reset">
+    <br><br><br>
+</form>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<script src="./assets/codigos.js">
+    
+</script>
+
+
+</body>
+</html>
