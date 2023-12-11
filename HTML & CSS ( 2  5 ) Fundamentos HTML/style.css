@@ -1,0 +1,96 @@
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    color: orangered;
+    background-color: skyblue;
+}
+
+
+p{
+    color: midnightblue;
+}
+#parrafo-dos{
+    background-color: skyblue;
+}
+.texto-32{
+    font-size: 32px;
+}
+.text-20{
+    font-size: 20px;
+}
+
+.bg-skyblue{
+    background: skyblue;
+}
+.bg-steelblue{
+    background: steelblue;
+}
+.text-white{
+    color: white;
+}
+
+.hijos-directos > li{
+    background-color: thistle;
+}
+
+/* Esto se hace no importa si es el componente hijo directo, con que este contenido en esta clase va 
+ */
+.hijos-decendientes b {
+    color: red;
+}
+.hermanos-general ~li {
+    background-color: thistle;
+
+}
+
+.hermanos-adyacentes +li {
+    background-color: thistle;
+
+}
+.selector-atributos a[href] {
+    color: rgb(221, 133, 133);
+
+}
+
+.selector-atributos a[target="_blank"] {
+    color: rgb(221, 133, 133);
+
+}
+
+.form-pseudoclases *:required{
+    border-color: yellow;
+}
+
+.form-pseudoclases *:valid{
+    border-color: green;
+}
+
+.form-pseudoclases *:invalid{
+    border-color: red;
+}
+
+.form-pseudoclases *:focus{
+    background-color: skyblue;
+}
+
+.form-pseudoclases *:disabled{
+    background-color: pink  ;
+}
+
+
+
+.menu-pseudoclases a:visited {
+
+
+    background-color: olive;
+  
+}
+
+.menu-pseudoclases a:hover {
+
+
+    background-color: skyblue;
+
+}
